@@ -1,7 +1,7 @@
 # Script para listar grupo 4 e integrante
 
 def listar_grupo():
-    grupo = "Grupo 4"
+    grupo = "Grupo"
     integrante = "Marcelo Peralta"
     
     print(f"{grupo}:")
