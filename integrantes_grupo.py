@@ -1,8 +1,12 @@
-# Script para imprimir nombre y apellido  del integrante del grupo 4
-integrantes de grupo 4= [
-    "Marcelo Peralta"
-]
+# Script para listar grupo 4 e integrante
 
-print("Integrantes del grupo 4:")
-for integrante in integrantes:
-    print(integrante)
+def listar_grupo():
+    grupo = "Grupo 4"
+    integrante = "Marcelo Peralta"
+    
+    print(f"{grupo}:")
+    print(f"- Integrante: {integrante}")
+
+if __name__ == "__main__":
+    listar_grupo()
+
